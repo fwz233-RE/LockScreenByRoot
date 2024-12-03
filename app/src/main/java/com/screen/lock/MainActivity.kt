@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
             val shortcutManager = getSystemService(ShortcutManager::class.java)
 
-            // 替换为 ChatGPT 应用的实际包名
+            // 替换为 other 应用的实际包名
             //val chatGptPackageName = "com.openai.chatgpt"
             //------------------------------------------------------------------------------------------------------------
             val chatGptPackageName = "com.ss.android.lark"
